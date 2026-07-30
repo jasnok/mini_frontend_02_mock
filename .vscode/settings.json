@@ -6,7 +6,7 @@
             "packageManager": "ms-python.python:pip"
         },
         {
-            "path": "frontend",
+            "path": "frontend_tab",
             "envManager": "ms-python.python:venv",
             "packageManager": "ms-python.python:pip"
         }
