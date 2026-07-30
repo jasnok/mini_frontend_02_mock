@@ -12,6 +12,18 @@ st.set_page_config(
     layout="wide",
 )
 
+st.markdown(
+    """
+    <style>
+    section[data-testid="stSidebar"] {
+        width: 220px !important;
+        min-width: 220px !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 storage = SessionStorage(key="login_session_storage")
 stored_loginout = storage.getItem("loginout") or "logout"
 
