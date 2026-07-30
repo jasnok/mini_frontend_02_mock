@@ -9,12 +9,10 @@ def init_state(stored_loginout: str = "logout") -> None:
     st.session_state.setdefault("login_pwd", "")
 
 
-def login() -> None:
-    if (
-        st.session_state.login_id == "id01"
-        and st.session_state.login_pwd == "pwd01"
-    ):
+def login(id, pwd) -> None:
+    if id == "id01" and pwd == "pwd01":
         st.session_state.loginout = "login"
+        st.session_state.login_id = id
 
 
 def logout() -> None:
