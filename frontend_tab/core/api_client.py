@@ -7,7 +7,7 @@ import httpx
 
 
 # BACKEND_URL = "http://127.0.0.1:800"
-BACKEND_URL = "https://mini-frontend-02-mock-ca36.onrender.com"
+BACKEND_URL = "https://mini-frontend-02-mock-73qg.onrender.com"
 
 REQUEST_TIMEOUT = 10.0
 
